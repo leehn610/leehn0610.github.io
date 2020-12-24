@@ -1,3 +1,4 @@
+<!-- HTML 문서 기본 구조 -->
 <!DOCTYPE html>
 <HTML>
 <HEAD>
