@@ -1,8 +1,6 @@
 <!-- HTML 문서 기본 구조 -->
-<!DOCTYPE html>
 <HTML>
 <HEAD>
-  <title>웹 프로그래밍</title>
 </HEAD>
 <BODY>
   <h1>자기 소개</h1><br>
