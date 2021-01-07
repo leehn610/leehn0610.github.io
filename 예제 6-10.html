@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD><title>웹 프로그래밍</title>
+</HEAD>
+<BODY>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML=dec2bin(101);
+
+        function dec2bin(bin){
+            return parseInt(bin, 2).toString(10);
+        }
+    </script>
+</BODY>
+</HTML>
