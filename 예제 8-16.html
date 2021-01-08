@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD><title>웹 프로그래밍</title>
+</HEAD>
+<BODY>
+   Enter your name:<input type="text" id="myName" onchange="myFunction()">
+   <script>
+       function myFunction(){
+           var str=document.getElemnetById("myName");
+           str.value=str.value.toUpperCase();
+       }
+   </script>
+</BODY>
+</HTML>
