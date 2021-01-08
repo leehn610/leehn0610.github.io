@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<HTMl>
+<HEAD><title>웹 프로그래밍</title></HEAD>
+<BODY>
+    <p id="carname"></p>
+    <p id="carcolor"></p>
+    <p id="carspeed"></p>
+    <script>
+        var car={
+            name:'iClickseo',
+            color:'silver',
+            speed:function(){
+                return this.speed+10;
+            }
+        };
+        var carName=document.getElementById("carname");
+        carName.textContent=car.name;
+
+        var colorName=document.getElementById("carcolor");
+        colorName.textContent=car.color;
+
+        var carSpeed=document.getElementById("carspeed");
+        carSpeed.textContent=car.start();
+    </script>
+</BODY>
+</HTMl>
