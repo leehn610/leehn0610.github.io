@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD><title>웹 프로그래밍</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+        $(document).ready(function(){
+            $('tr:even').css('background','#9F9F9F');
+            $('tr:odd').css('background','#FFFFFF');
+            $('tr:first').css('background','#000000').css('color','#FFFFFF');
+        });
+</script>
+</HEAD>
+<BODY>
+    <table>
+        <tr><th>이 름</th><th>학 년</th><th>학부(학과)</th></tr>
+        <tr><td>홍길동</td><td>2학년</td><td>컴퓨터정보공학부</td></tr>
+        <tr><td>서하은</td><td>1학년</td><td>소프트웨어학부</td></tr>
+        <tr><td>Clickseo</td><td>2학년</td><td>정보융합학부</td></tr>
+        <tr><td>iClickseo</td><td>1학년</td><td>정보융합학부</td></tr>
+    </table>
+</BODY>
+</HTML>
