@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD><title>웹 프로그래밍</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+        $(document).ready(function(){
+            var color=['red','pink','purple'];
+
+            $('h1').css('color',function(index){
+                return color[index];
+            });
+        });
+</script>
+</HEAD>
+<BODY>
+    <h1>Header-0</h1>
+    <h1>Header-1</h1>
+    <h1>Header-2</h1>
+</BODY>
+</BODY>
+</HTML>
