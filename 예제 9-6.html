@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD><title>웹 프로그래밍</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+        $(document).ready(function(){
+            setTimeout(function(){
+                var value=$('select>option:selected').val();
+                alert(value);
+            },5000);
+        });
+</script>
+</HEAD>
+<BODY>
+    <select>
+        <option>컴퓨터정보공학부</option>
+        <option>소프트웨어학부</option>
+        <option>정보융합학부</option>
+    </select>
+</BODY>
+</HTML>
